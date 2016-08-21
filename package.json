@@ -1,0 +1,20 @@
+{
+  "name": "wikitable",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=development tap test --cov",
+    "devtool": "NODE_ENV=development devtool test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^9.4.2",
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "tap": "^6.3.2"
+  }
+}
