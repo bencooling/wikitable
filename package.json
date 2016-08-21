@@ -2,7 +2,7 @@
   "name": "wikitable",
   "version": "0.1.3",
   "description": "HTML table scraper for wikipedia or any other site",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "tap test --cov",
     "devtool": "NODE_ENV=development devtool test"
