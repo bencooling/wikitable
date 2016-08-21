@@ -4,8 +4,12 @@
   "description": "HTML table scraper for wikipedia or any other site",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=development tap test --cov",
+    "test": "tap test --cov",
     "devtool": "NODE_ENV=development devtool test"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/bencooling/wikitable.git"
   },
   "keywords": [
     "scrape",
