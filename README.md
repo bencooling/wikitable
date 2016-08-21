@@ -5,14 +5,25 @@
 
 > HTML table scraper for wikipedia or any other site.  
 
-- lightweight (13 lines, 2 dependencies: pify & jsdom ).  
-- Can optionally provide a css selector (defaults to the className used by wikipedia `.wikitable`).  
-- Returns an array of nested arrays (Array of table cells within an array of table rows within an array of tables on site)
+- Lightweight, weighing in ~25 lines, 2 dependencies (pify & jsdom).  
+- Requires es6.  
+
+
+## 0.1.5 API Reference
+
+### wikitable(options)
+
+Scrape tables from wikipedia or any webpage, returning in a nested array or object (default) format.  
+
+- options
+  - `url` - Required url of the webpage to scrape
+  - `selector` - Optional css selector, defaults to `.wikitable`
+  - `format` - Optional format either `object` or `array`.
 
 ```javascript
 // usage:
 const url = 'https://en.wikipedia.org/wiki/List_of_modern_names_for_biblical_place_names';
-wikitable(url, [selector])
+wikitable({ url, format: 'array' })
   .then(data => console.log(data));
 /*
   data:
