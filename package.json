@@ -1,13 +1,19 @@
 {
   "name": "wikitable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "HTML table scraper for wikipedia or any other site",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=development tap test --cov",
     "devtool": "NODE_ENV=development devtool test"
   },
-  "keywords": ["scrape", "scraper", "html", "table", "json"],
+  "keywords": [
+    "scrape",
+    "scraper",
+    "html",
+    "table",
+    "json"
+  ],
   "author": "Ben Cooling",
   "license": "ISC",
   "dependencies": {
