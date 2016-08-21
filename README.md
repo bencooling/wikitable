@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/bencooling/wikitable.svg?branch=master)](https://travis-ci.org/bencooling/wikitable)
+[![Coverage Status](https://coveralls.io/repos/github/bencooling/wikitable/badge.svg?branch=master)](https://coveralls.io/github/bencooling/wikitable?branch=master)
+
 # wikitable
 
 > HTML table scraper for wikipedia or any other site.  
