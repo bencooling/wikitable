@@ -1,6 +1,6 @@
 {
   "name": "wikitable",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "HTML table scraper for wikipedia or any other site",
   "main": "lib/index.js",
   "scripts": {
