@@ -9,7 +9,7 @@
 - Requires es6.  
 
 
-## 0.2.1 API Reference
+## 0.2.2 API Reference
 
 ### wikitable(options)
 
