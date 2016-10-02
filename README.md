@@ -5,11 +5,8 @@
 
 > HTML table scraper for wikipedia or any other site.  
 
-- Lightweight, weighing in ~25 lines, 2 dependencies (pify & jsdom).  
-- Requires es6.  
 
-
-## 0.2.2 API Reference
+## 0.2.3 API Reference
 
 ### wikitable(options)
 
