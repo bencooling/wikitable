@@ -5,7 +5,7 @@ const scrape = (document, selector) => {
     const trs = table.getElementsByTagName('tr');
     return [...trs].map(tr => {
       const tds = tr.querySelectorAll('th, td');
-      return [...tds].map(td => td.textContent);
+      return [...tds].map(td => td.textContent.trim());
     });
   });
 };
@@ -13,7 +13,7 @@ const scrape = (document, selector) => {
 const toObj = tables => tables.map(table => {
   const [headers, ...rows] = table;
   return rows.map(row => row.reduce((obj, td, i) => {
-    const key = headers[i];
+    const key = headers[i].trim();
     obj[key] = td;
     return obj;
   }, {}));
