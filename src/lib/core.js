@@ -1,6 +1,6 @@
 const scrape = (document, selector) => {
   const tables = document.querySelectorAll(selector);
-  debugger;
+
   return [...tables].map(table => {
     const trs = table.getElementsByTagName('tr');
     return [...trs].map(tr => {
