@@ -14,6 +14,7 @@
       "es2015"
     ]
   },
+  "files": ["lib/**"],
   "repository": {
     "type": "git",
     "url": "https://github.com/bencooling/wikitable.git"
